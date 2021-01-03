@@ -1,10 +1,10 @@
 # tf-pose-realtime3D
 这个项目集成了tf-pose-estimation实现了3D人体姿态实时识别功能
-**注意：所有安装的模块都是在python的虚拟环境中安装
+## 注意：所有安装的模块都是在python的虚拟环境中安装
 一、openpose 安装部分
 创建虚拟环境：conda create -n tf1 python=3.5
 激活虚拟环境：conda activate tf1
-## 以下安装模块部分速度较慢情况请更改pip或conda下载源
+**以下安装模块部分速度较慢情况请更改pip或conda下载源
 安装tensorflow：conda install tensorflow-gpu==1.4.0
 安装opencv：pip install opencv-python==3.4.2.17
 安装opencv-contrib：pip install opencv-contrib-python=3.4.2.17
